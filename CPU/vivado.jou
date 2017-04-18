@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Mar 27 00:10:07 2017
+# Process ID: 1076
+# Log file: F:/hd/CS1401_U201414573_÷Ï¨B/CPU/vivado.log
+# Journal file: F:/hd/CS1401_U201414573_÷Ï¨B/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.xpr
+launch_simulation
+open_wave_config F:/hd/CS1401_U201414573_÷Ï¨B/CPU/trl_s_behav.wcfg
+source trl_s.tcl
+run 100000 ns
+close_sim

@@ -1,0 +1,184 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Mar 27 00:10:07 2017
+# Process ID: 1076
+# Log file: F:/hd/CS1401_U201414573_÷Ï¨B/CPU/vivado.log
+# Journal file: F:/hd/CS1401_U201414573_÷Ï¨B/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.xpr
+INFO: [Project 1-313] Project file moved from 'F:/”≤º˛øŒ/CS1401_U201414573_÷Ï¨B/CPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:23 . Memory (MB): peak = 679.543 ; gain = 122.363
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'trl_s' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE' step in 'F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.sim/sim_1/behav'
+"xvlog -m64 --relax -prj trl_s_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/new/RelativeCompare.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RelativeCompare
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/new/read_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module read_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/new/rcomp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rcomp
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/new/Relative_Check2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Relative_Check2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/new/Rc2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Rc2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/opctl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module opctl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/ctl2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctl2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/ctl1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ctl1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/ac.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ac
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/register_nbits.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_nbits
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom
+WARNING: [VRFC 10-756] identifier ADDR_WID is used before its declaration [F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/rom.v:24]
+WARNING: [VRFC 10-756] identifier DATA_WID is used before its declaration [F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/rom.v:25]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/new/Relative_Check1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Relative_Check1
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+WARNING: [VRFC 10-756] identifier ADDR_WID is used before its declaration [F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/regfile.v:26]
+WARNING: [VRFC 10-756] identifier ADDR_WID is used before its declaration [F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/regfile.v:28]
+WARNING: [VRFC 10-756] identifier ADDR_WID is used before its declaration [F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/regfile.v:29]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/new/Re2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Re2
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/ram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram
+WARNING: [VRFC 10-756] identifier ADDR_WID is used before its declaration [F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/ram.v:26]
+WARNING: [VRFC 10-756] identifier DATA_WID is used before its declaration [F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/ram.v:27]
+WARNING: [VRFC 10-756] identifier DATA_WID is used before its declaration [F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/ram.v:28]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/NPC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NPC
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/Mem_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/IR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IR
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/classdesign/dclk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dclk
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/ALUctl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALUctl
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/7_trans.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seg7x8D
+INFO: [VRFC 10-311] analyzing module decode4_7
+INFO: [VRFC 10-311] analyzing module DivideForDe47
+INFO: [VRFC 10-311] analyzing module decoder_38
+INFO: [VRFC 10-311] analyzing module CFde4x8
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/EX_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/new/main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module main
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sim_1/imports/new/trl_s.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module trl_s
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.sim/sim_1/behav'
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 06f9b345d38747b78296f9049a226e5d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot trl_s_behav xil_defaultlib.trl_s xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dclk
+Compiling module xil_defaultlib.DivideForDe47
+Compiling module xil_defaultlib.CFde4x8
+Compiling module xil_defaultlib.decoder_38
+Compiling module xil_defaultlib.decode4_7
+Compiling module xil_defaultlib.seg7x8D
+Compiling module xil_defaultlib.register_nbits
+Compiling module xil_defaultlib.register_nbits(NUM_BITS=1)
+Compiling module xil_defaultlib.NPC
+Compiling module xil_defaultlib.rom
+Compiling module xil_defaultlib.register_nbits(NUM_BITS=10)
+Compiling module xil_defaultlib.IF_ID
+Compiling module xil_defaultlib.IR
+Compiling module xil_defaultlib.ctl1
+Compiling module xil_defaultlib.ctl2
+Compiling module xil_defaultlib.opctl
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.ac
+Compiling module xil_defaultlib.ALUctl
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.ID_EX
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.EX_Mem
+Compiling module xil_defaultlib.ram
+Compiling module xil_defaultlib.register_nbits(NUM_BITS=2)
+Compiling module xil_defaultlib.Mem_WB
+Compiling module xil_defaultlib.read_reg
+Compiling module xil_defaultlib.RelativeCompare
+Compiling module xil_defaultlib.Relative_Check2
+Compiling module xil_defaultlib.Relative_Check1
+Compiling module xil_defaultlib.rcomp
+Compiling module xil_defaultlib.Rc2
+Compiling module xil_defaultlib.Re2
+Compiling module xil_defaultlib.main
+Compiling module xil_defaultlib.trl_s
+Compiling module xil_defaultlib.glbl
+Waiting for 1 sub-compilation(s) to finish...
+Built simulation snapshot trl_s_behav
+
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.sim/sim_1/behav/xsim.dir/trl_s_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.sim/sim_1/behav/xsim.dir/trl_s_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Mar 27 00:11:17 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Mar 27 00:11:17 2017...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 686.684 ; gain = 0.000
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "trl_s_behav -key {Behavioral:sim_1:Functional:trl_s} -tclbatch {trl_s.tcl} -view {F:/hd/CS1401_U201414573_÷Ï¨B/CPU/trl_s_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+open_wave_config F:/hd/CS1401_U201414573_÷Ï¨B/CPU/trl_s_behav.wcfg
+source trl_s.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: File benchmark.hex referenced on F:/hd/CS1401_U201414573_÷Ï¨B/CPU/CPU.srcs/sources_1/imports/sources_1/imports/new/rom.v at line 32 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'trl_s_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 734.324 ; gain = 50.348
+run 100000 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 740.262 ; gain = 1.113
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 27 00:11:37 2017...

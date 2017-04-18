@@ -1,0 +1,47 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 06f9b345d38747b78296f9049a226e5d --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot trl_s_behav xil_defaultlib.trl_s xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.dclk
+Compiling module xil_defaultlib.DivideForDe47
+Compiling module xil_defaultlib.CFde4x8
+Compiling module xil_defaultlib.decoder_38
+Compiling module xil_defaultlib.decode4_7
+Compiling module xil_defaultlib.seg7x8D
+Compiling module xil_defaultlib.register_nbits
+Compiling module xil_defaultlib.register_nbits(NUM_BITS=1)
+Compiling module xil_defaultlib.NPC
+Compiling module xil_defaultlib.rom
+Compiling module xil_defaultlib.register_nbits(NUM_BITS=10)
+Compiling module xil_defaultlib.IF_ID
+Compiling module xil_defaultlib.IR
+Compiling module xil_defaultlib.ctl1
+Compiling module xil_defaultlib.ctl2
+Compiling module xil_defaultlib.opctl
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.ac
+Compiling module xil_defaultlib.ALUctl
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.ID_EX
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.EX_Mem
+Compiling module xil_defaultlib.ram
+Compiling module xil_defaultlib.register_nbits(NUM_BITS=2)
+Compiling module xil_defaultlib.Mem_WB
+Compiling module xil_defaultlib.read_reg
+Compiling module xil_defaultlib.RelativeCompare
+Compiling module xil_defaultlib.Relative_Check2
+Compiling module xil_defaultlib.Relative_Check1
+Compiling module xil_defaultlib.rcomp
+Compiling module xil_defaultlib.Rc2
+Compiling module xil_defaultlib.Re2
+Compiling module xil_defaultlib.main
+Compiling module xil_defaultlib.trl_s
+Compiling module xil_defaultlib.glbl
+Waiting for 1 sub-compilation(s) to finish...
+Built simulation snapshot trl_s_behav

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="trl_s_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="trl_s" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="81" />
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/dl" type="array">
+      <obj_property name="ElementShortName">dl[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dl[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/dis/df0/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[17:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[17:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/dis/df0/Adf3" type="array">
+      <obj_property name="ElementShortName">Adf3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Adf3[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/Lc" type="array">
+      <obj_property name="ElementShortName">Lc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Lc[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/AtoP" type="array">
+      <obj_property name="ElementShortName">AtoP[6:0]</obj_property>
+      <obj_property name="ObjectShortName">AtoP[6:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/timeup" type="logic">
+      <obj_property name="ElementShortName">timeup</obj_property>
+      <obj_property name="ObjectShortName">timeup</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/clr" type="logic">
+      <obj_property name="ElementShortName">clr</obj_property>
+      <obj_property name="ObjectShortName">clr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/SYS_NUM" type="array">
+      <obj_property name="ElementShortName">SYS_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SYS_NUM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/brunch_NUM" type="array">
+      <obj_property name="ElementShortName">brunch_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">brunch_NUM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/load_use_NUM" type="array">
+      <obj_property name="ElementShortName">load_use_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">load_use_NUM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/J_NUM" type="array">
+      <obj_property name="ElementShortName">J_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">J_NUM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ins_NUM" type="array">
+      <obj_property name="ElementShortName">ins_NUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ins_NUM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/_clk" type="logic">
+      <obj_property name="ElementShortName">_clk</obj_property>
+      <obj_property name="ObjectShortName">_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/instruct_if" type="array">
+      <obj_property name="ElementShortName">instruct_if[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruct_if[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/instruct_id" type="array">
+      <obj_property name="ElementShortName">instruct_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruct_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/instruct_ex" type="array">
+      <obj_property name="ElementShortName">instruct_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruct_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/instruct_mem" type="array">
+      <obj_property name="ElementShortName">instruct_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruct_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/instruct_wb" type="array">
+      <obj_property name="ElementShortName">instruct_wb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruct_wb[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/alu1/s" type="array">
+      <obj_property name="ElementShortName">s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/aluctl/ALUOp_i" type="array">
+      <obj_property name="ElementShortName">ALUOp_i[4:1]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp_i[4:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/aluctl/ALUOp_o" type="array">
+      <obj_property name="ElementShortName">ALUOp_o[4:1]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp_o[4:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/aluctl/_ctl" type="logic">
+      <obj_property name="ElementShortName">_ctl</obj_property>
+      <obj_property name="ObjectShortName">_ctl</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ram/ram_str" type="logic">
+      <obj_property name="ElementShortName">ram_str</obj_property>
+      <obj_property name="ObjectShortName">ram_str</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ram/ram_addr" type="array">
+      <obj_property name="ElementShortName">ram_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ram/ram_din" type="array">
+      <obj_property name="ElementShortName">ram_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ram/ram_dout" type="array">
+      <obj_property name="ElementShortName">ram_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ex_mem/ALU_result_out" type="array">
+      <obj_property name="ElementShortName">ALU_result_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ALU_result_ex" type="array">
+      <obj_property name="ElementShortName">ALU_result_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ALU_X" type="array">
+      <obj_property name="ElementShortName">ALU_X[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_X[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ALU_Y" type="array">
+      <obj_property name="ElementShortName">ALU_Y[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_Y[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/Ext_id" type="array">
+      <obj_property name="ElementShortName">Ext_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Ext_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/Ext_ex" type="array">
+      <obj_property name="ElementShortName">Ext_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Ext_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/load_use" type="logic">
+      <obj_property name="ElementShortName">load_use</obj_property>
+      <obj_property name="ObjectShortName">load_use</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/Din" type="array">
+      <obj_property name="ElementShortName">Din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Din[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/rfile/rf_we" type="logic">
+      <obj_property name="ElementShortName">rf_we</obj_property>
+      <obj_property name="ObjectShortName">rf_we</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/EX_Mem_RE" type="array">
+      <obj_property name="ElementShortName">EX_Mem_RE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_Mem_RE[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/x1" type="array">
+      <obj_property name="ElementShortName">x1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/x2" type="array">
+      <obj_property name="ElementShortName">x2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/y1" type="array">
+      <obj_property name="ElementShortName">y1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/y2" type="array">
+      <obj_property name="ElementShortName">y2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/y3" type="array">
+      <obj_property name="ElementShortName">y3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y3[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/y4" type="array">
+      <obj_property name="ElementShortName">y4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y4[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/y5" type="array">
+      <obj_property name="ElementShortName">y5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">y5[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/rfile/rf_s0" type="array">
+      <obj_property name="ElementShortName">rf_s0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_s0[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/rfile/rf_s1" type="array">
+      <obj_property name="ElementShortName">rf_s1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_s1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/Sig_id" type="array">
+      <obj_property name="ElementShortName">Sig_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Sig_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/Sig_ex" type="array">
+      <obj_property name="ElementShortName">Sig_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Sig_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/Sig_mem" type="array">
+      <obj_property name="ElementShortName">Sig_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Sig_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/pc_if" type="array">
+      <obj_property name="ElementShortName">pc_if[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_if[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ex_mem/PC_changed_Mem" type="logic">
+      <obj_property name="ElementShortName">PC_changed_Mem</obj_property>
+      <obj_property name="ObjectShortName">PC_changed_Mem</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ex_mem/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/pc_count/reg_d" type="array">
+      <obj_property name="ElementShortName">reg_d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_d[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ex_mem/PC_out" type="array">
+      <obj_property name="ElementShortName">PC_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/pc_count/reg_d" type="array">
+      <obj_property name="ElementShortName">reg_d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_d[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/pc_count/reg_q" type="array">
+      <obj_property name="ElementShortName">reg_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_q[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/p1" type="array">
+      <obj_property name="ElementShortName">p1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/p2" type="array">
+      <obj_property name="ElementShortName">p2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/p3" type="array">
+      <obj_property name="ElementShortName">p3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p3[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/p4" type="array">
+      <obj_property name="ElementShortName">p4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p4[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/p5" type="array">
+      <obj_property name="ElementShortName">p5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">p5[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/PCj" type="array">
+      <obj_property name="ElementShortName">PCj[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCj[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/brunch" type="logic">
+      <obj_property name="ElementShortName">brunch</obj_property>
+      <obj_property name="ObjectShortName">brunch</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ctl12_ex" type="logic">
+      <obj_property name="ElementShortName">ctl12_ex</obj_property>
+      <obj_property name="ObjectShortName">ctl12_ex</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/instruct_id" type="array">
+      <obj_property name="ElementShortName">instruct_id[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruct_id[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ctl" type="array">
+      <obj_property name="ElementShortName">ctl[20:1]</obj_property>
+      <obj_property name="ObjectShortName">ctl[20:1]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ctl18_id" type="logic">
+      <obj_property name="ElementShortName">ctl18_id</obj_property>
+      <obj_property name="ObjectShortName">ctl18_id</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ctl12_wb" type="logic">
+      <obj_property name="ElementShortName">ctl12_wb</obj_property>
+      <obj_property name="ObjectShortName">ctl12_wb</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ctl12_ex" type="logic">
+      <obj_property name="ElementShortName">ctl12_ex</obj_property>
+      <obj_property name="ObjectShortName">ctl12_ex</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/brunch" type="logic">
+      <obj_property name="ElementShortName">brunch</obj_property>
+      <obj_property name="ObjectShortName">brunch</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/Din_To_MD" type="logic">
+      <obj_property name="ElementShortName">Din_To_MD</obj_property>
+      <obj_property name="ObjectShortName">Din_To_MD</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/Din_To_Rs" type="logic">
+      <obj_property name="ElementShortName">Din_To_Rs</obj_property>
+      <obj_property name="ObjectShortName">Din_To_Rs</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/Din_To_Rt" type="logic">
+      <obj_property name="ElementShortName">Din_To_Rt</obj_property>
+      <obj_property name="ObjectShortName">Din_To_Rt</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ALU_result_To_Rt" type="logic">
+      <obj_property name="ElementShortName">ALU_result_To_Rt</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_To_Rt</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ALU_result_To_Rs" type="logic">
+      <obj_property name="ElementShortName">ALU_result_To_Rs</obj_property>
+      <obj_property name="ObjectShortName">ALU_result_To_Rs</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/rfile/rfd1" type="array">
+      <obj_property name="ElementShortName">rfd1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rfd1[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/rfile/rfd2" type="array">
+      <obj_property name="ElementShortName">rfd2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rfd2[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/r1_ex" type="array">
+      <obj_property name="ElementShortName">r1_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r1_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/r2_ex" type="array">
+      <obj_property name="ElementShortName">r2_ex[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r2_ex[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/r2_mem" type="array">
+      <obj_property name="ElementShortName">r2_mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r2_mem[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/trl_s/dut/ram/ram_content" type="array">
+      <obj_property name="ElementShortName">ram_content[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_content[1023:0][31:0]</obj_property>
+   </wvobject>
+</wave_config>

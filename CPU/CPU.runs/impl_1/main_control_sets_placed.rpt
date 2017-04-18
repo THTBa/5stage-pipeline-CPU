@@ -1,0 +1,103 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.2 (win64) Build 1266856 Fri Jun 26 16:35:25 MDT 2015
+| Date         : Mon Feb 27 10:35:15 2017
+| Host         : THTBa running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
+| Design       : main
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    50 |
+| Minimum Number of register sites lost to control set restrictions |    51 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             155 |           59 |
+| No           | No                    | Yes                    |             343 |          150 |
+| No           | Yes                   | No                     |              32 |            8 |
+| Yes          | No                    | No                     |            1024 |          483 |
+| Yes          | No                    | Yes                    |             211 |           71 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+--------------------------------------+-----------------------------+------------------+----------------+
+|       Clock Signal      |             Enable Signal            |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++-------------------------+--------------------------------------+-----------------------------+------------------+----------------+
+|  d1/_clk                |                                      | clr_IBUF                    |                1 |              1 |
+|  PC_changed_mem_BUFG    |                                      | PC_c/reg_q[0]_i_1__7_n_0    |                1 |              1 |
+|  clk_BUFG               |                                      | ALU_result_To_Rt0_BUFG      |                1 |              1 |
+|  dis/df0/clk_divide     |                                      |                             |                1 |              3 |
+|  e3_IBUF_BUFG           |                                      |                             |                5 |             17 |
+| ~ALU_result_To_Rt0_BUFG |                                      | clr_IBUF                    |                8 |             32 |
+|  PC_changed_mem_BUFG    |                                      | clr_IBUF                    |                8 |             32 |
+|  clk0_BUFG              | ALU_result_To_Rt0_BUFG               | clr_IBUF                    |                7 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[18][31][0] |                             |               18 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[4][31][0]  |                             |               12 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[6][31][0]  |                             |               14 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[7][31][0]  |                             |               13 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[8][31][0]  |                             |               14 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[9][31][0]  |                             |               13 |             32 |
+|  e3_IBUF_BUFG           |                                      | d1/count[0]_i_1_n_0         |                8 |             32 |
+|  clk_BUFG               | rfile/E[0]                           | clr_IBUF                    |                8 |             32 |
+| ~clk_BUFG               | mem_wb/sig/E[0]                      |                             |               12 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[10][31][0] |                             |               13 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[11][31][0] |                             |               16 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[12][31][0] |                             |               15 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[13][31][0] |                             |               12 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[14][31][0] |                             |               13 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[15][31][0] |                             |               14 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[16][31][0] |                             |               17 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[17][31][0] |                             |               18 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[5][31][0]  |                             |               13 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[19][31][0] |                             |               18 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[1][31][0]  |                             |               14 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[20][31][0] |                             |               18 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[21][31][0] |                             |               19 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[22][31][0] |                             |               18 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[23][31][0] |                             |               18 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[24][31][0] |                             |               17 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[25][31][0] |                             |               15 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[26][31][0] |                             |               16 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[27][31][0] |                             |               16 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[28][31][0] |                             |               16 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[29][31][0] |                             |               15 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[2][31][0]  |                             |               10 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[30][31][0] |                             |               18 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[31][31][0] |                             |               13 |             32 |
+| ~clk_BUFG               | mem_wb/sig/rf_content_reg[3][31][0]  |                             |               15 |             32 |
+|  clk_BUFG               |                                      | PC_c/clr0                   |               39 |             75 |
+|  clk_BUFG               | ex_mem/alu_result/reg_q_reg[30]_3    |                             |               32 |            128 |
+|  clk_BUFG               | ex_mem/alu_result/reg_q_reg[30]_2    |                             |               32 |            128 |
+|  clk_BUFG               | ex_mem/alu_result/reg_q_reg[30]_0    |                             |               32 |            128 |
+|  clk_BUFG               | ex_mem/alu_result/reg_q_reg[30]_1    |                             |               32 |            128 |
+|  clk_BUFG               |                                      |                             |               53 |            135 |
+|  clk_BUFG               | ALU_result_To_Rt0_BUFG               | id_ex/d_flip3/reg_q_reg[23] |               56 |            147 |
+|  clk_BUFG               |                                      | clr_IBUF                    |               92 |            201 |
++-------------------------+--------------------------------------+-----------------------------+------------------+----------------+
+
+
